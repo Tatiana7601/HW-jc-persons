@@ -8,25 +8,27 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-<div>
-    <label> ID:
-        <input id="personId" type="text" placeholder="new id">
-    </label>
-    <label> First Name:
-        <input id="firstName" type="text" placeholder="new Name">
-    </label>
-    <label> Last Name:
-        <input id="lastName" type="text" placeholder="new Last Name">
-    </label>
-    <label> Age:
-        <input id="age" type="number" min="0">
-    </label>
+<div class="box">
+    <div class="input-section">
+        <label> ID:
+            <input id="personId" type="text" placeholder="new id">
+        </label>
+        <label> First Name:
+            <input id="firstName" type="text" placeholder="new Name">
+        </label>
+        <label> Last Name:
+            <input id="lastName" type="text" placeholder="new Last Name">
+        </label>
+        <label> Age:
+            <input id="age" type="number" min="0" placeholder="age">
+        </label>
+    </div>
+    <button id="addPerson">Add new person</button>
+    <div class="persons-section">
+        <h1>Persons: </h1>
+        <ol id="personsList"></ol>
+    </div>
+    <h2 id="totalPersons">Total persons: 0</h2>
 </div>
-<button id="addPerson">Add new person</button>
-<div>
-    <h1>Persons: </h1>
-    <ol id="personsList"></ol>
-</div>
-<h2 id="totalPersons">Total persons: 0</h2>
 </body>
 </html>

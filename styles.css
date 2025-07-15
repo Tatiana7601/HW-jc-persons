@@ -6,7 +6,7 @@
 }
 body{
     background-color: rgba(170,170,170,.4);
-    displey:flex;
+    display:flex;
     justify-content: center;
     align-items:flex-start;
     min-height: 100vh;
